@@ -5,36 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UserInterface"
         mc:Ignorable="d"
-        Title="Financial System" Height="450" Width="500" WindowStartupLocation="CenterScreen"> 
-    <Grid Margin="10">
+        Title="Financial System" Height="450" Width="600" WindowStartupLocation="CenterScreen">
+    <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-
-        <TextBlock Text="Person Registration"
-                   FontSize="20" FontWeight="Bold"
-                   HorizontalAlignment="Center" Margin="0,0,0,20"/>
-
-        <StackPanel Grid.Row="1" Margin="0,0,0,20">
-            <Label Content="Name:"/>
-            <TextBox x:Name="txtName" Margin="0,0,0,10"/>
-
-            <Label Content="Age:"/>
-            <TextBox x:Name="txtAge" Margin="0,0,0,10"/>
-
-            <Button x:Name="btnAddPerson"
-                    Content="Add Person"
-                    Click="BtnAdd_Click"
-                    Background="LightGreen" Padding="10" Margin="0,10,0,0"/>
-        </StackPanel>
-
-        <StackPanel Grid.Row="2" Margin="0,0,0,10">
-            <Label Content="Registered People:" FontWeight="Bold"/>
-            <ListBox x:Name="lstPeople" Height="150"/>
-            <TextBlock x:Name="txtCounter" Margin="0,5,0,0" FontStyle="Italic"/>
-        </StackPanel>
+        
+        <!-- Menu -->
+        <Menu Grid.Row="0" Background="LightGray">
+            <MenuItem Header="Registrations">
+                <MenuItem Header="People" Click="OpenPeople_Click"/>
+                <MenuItem Header="Creditors" Click="OpenCreditors_Click"/>
+                <Separator/>
+                <MenuItem Header="Logout" Click="Logout_Click"/>
+            </MenuItem>
+        </Menu>
+        
+        <!-- Content Area (optional: can be a Frame) -->
+        <TextBlock Grid.Row="1"
+                   Text="Welcome to the Financial System!"
+                   FontSize="24"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"/>
     </Grid>
 </Window>

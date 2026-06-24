@@ -120,3 +120,8 @@ C:\Users\lucba\Documents\ESTUDOS\C#\FinancialSystemProject\UserInterface\obj\Deb
 C:\Users\lucba\Documents\ESTUDOS\C#\FinancialSystemProject\UserInterface\obj\Debug\net10.0-windows\UserInterface.pdb
 C:\Users\lucba\Documents\ESTUDOS\C#\FinancialSystemProject\UserInterface\obj\Debug\net10.0-windows\UserInterface.genruntimeconfig.cache
 C:\Users\lucba\Documents\ESTUDOS\C#\FinancialSystemProject\UserInterface\obj\Debug\net10.0-windows\ref\UserInterface.dll
+C:\Users\lucba\Documents\ESTUDOS\C#\FinancialSystemProject\UserInterface\obj\Debug\net10.0-windows\CreditorWindow.g.cs
+C:\Users\lucba\Documents\ESTUDOS\C#\FinancialSystemProject\UserInterface\obj\Debug\net10.0-windows\CreditorWindow.baml
+C:\Users\lucba\Documents\ESTUDOS\C#\FinancialSystemProject\UserInterface\obj\Debug\net10.0-windows\UserInterface.sourcelink.json
+C:\Users\lucba\Documents\ESTUDOS\C#\FinancialSystemProject\UserInterface\obj\Debug\net10.0-windows\PersonWindow.g.cs
+C:\Users\lucba\Documents\ESTUDOS\C#\FinancialSystemProject\UserInterface\obj\Debug\net10.0-windows\PersonWindow.baml

@@ -1,0 +1,16 @@
+# Ignore local settings documents
+appsettings.json
+*.user
+*.suo
+*.cache
+
+# Ignore build folders
+bin/
+obj/
+Debug/
+Release/
+
+# Ignore Visual Studio documents
+.vs/
+*.vspscc
+*.vssscc

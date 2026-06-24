@@ -1,53 +1,29 @@
-﻿using System;
-using System.Windows;
-using Business;
+﻿using System.Windows;
 
 namespace UserInterface
 {
     public partial class MainWindow : Window
     {
-        private PersonService _service;
-
         public MainWindow()
         {
             InitializeComponent();
-            _service = new PersonService();
-            RefreshList();
         }
 
-        private void BtnAdd_Click(object sender, RoutedEventArgs e)
+        private void OpenPeople_Click(object sender, RoutedEventArgs e)
         {
-            try
-            {
-                string name = txtName.Text;
-                int age = int.Parse(txtAge.Text);
-
-                _service.AddPerson(name, age);
-
-                txtName.Clear();
-                txtAge.Clear();
-                txtName.Focus();
-
-                RefreshList();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Erro: {ex.Message}", "Warning",
-                                MessageBoxButton.OK, MessageBoxImage.Warning);
-            }
+            var window = new PersonWindow();
+            window.ShowDialog();
         }
 
-        private void RefreshList()
+        private void OpenCreditors_Click(object sender, RoutedEventArgs e)
         {
-            var people = _service.GetPeople();
+            var window = new CreditorWindow();
+            window.ShowDialog();
+        }
 
-            lstPeople.Items.Clear();
-            foreach (var person in people)
-            {
-                lstPeople.Items.Add(person.ToString());
-            }
-
-            txtCounter.Text = $"Total: {_service.CountPeople()} people";
+        private void Logout_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }

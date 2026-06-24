@@ -18,7 +18,7 @@ namespace Business
         public void AddPerson(string name, int age)
         {
             if (string.IsNullOrWhiteSpace(name))
-                throw new ArgumentException("Name cannot be empty!");
+                throw new ArgumentException("Invalid Name!");
 
             if (age < 0 || age > 150)
                 throw new ArgumentException("Invalid age!");
