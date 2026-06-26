@@ -15,14 +15,39 @@ namespace Business
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            var configuration = new ConfigurationBuilder()
+            // try read password from environment variable
+            var password = Environment.GetEnvironmentVariable("MYSQL_PASSWORD");
+
+            if (!string.IsNullOrEmpty(password))
+            {
+                var connectionString = $"Server=localhost;Port=3306;Database=FinancialSystemDb;User=root;Password={password};";
+                optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+
+                return;
+            }
+
+            // try to read appsettings.json (if exists, for others environments)
+            try
+            {
+                var configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
                 .Build();
 
-            var connectionString = configuration.GetConnectionString("DefaultConnection");
+                var connectionString = configuration.GetConnectionString("DefaultConnection");
 
-            optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+                if (!string.IsNullOrEmpty(connectionString))
+                {
+                    optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+
+                    return;
+                }
+            }
+            catch { /* Ignore file read error */}
+
+            // throw error without exposing the password
+            throw new Exception("Database password not configured. Please set the MYSQL_PASSWORD environment variable");
+            
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

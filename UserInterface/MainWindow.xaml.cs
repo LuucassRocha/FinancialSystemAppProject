@@ -21,6 +21,12 @@ namespace UserInterface
             window.ShowDialog();
         }
 
+        private void OpenInvoices_Click(object sender, RoutedEventArgs e)
+        {
+            var window = new InvoiceWindow();
+            window.ShowDialog();
+        }
+
         private void Logout_Click(object sender, RoutedEventArgs e)
         {
             Close();
