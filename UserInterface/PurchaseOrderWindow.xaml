@@ -1,12 +1,11 @@
-﻿<Window x:Class="UserInterface.InvoiceWindow"
+﻿<Window x:Class="UserInterface.PurchaseOrderWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UserInterface"
         mc:Ignorable="d"
-        Title="Invoice Registration" Height="700" Width="600" WindowStartupLocation="CenterScreen">
-    
+        Title="PurchaseOrderWindow" Height="700" Width="600" WindowStartupLocation="CenterScreen">
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -16,18 +15,18 @@
         </Grid.RowDefinitions>
         
         <!-- Title -->
-        <TextBlock Text="Invoice Registration"
+        <TextBlock Text="Purchase Order Registration"
                    FontSize="20" FontWeight="Bold"
                    HorizontalAlignment="Center" Margin="0,0,0,20"/>
         
         <!-- Form -->
         <StackPanel Grid.Row="1" Margin="0,0,0,20">
 
-            <Label Content="Invoice Number:"/>
-            <TextBox x:Name="txtInvoiceNumber" Margin="0,0,0,10"/>
+            <Label Content="Purchase Order Number:"/>
+            <TextBox x:Name="txtOrderNumber" Margin="0,0,0,10"/>
 
-            <Label Content="Issue Date:"/>
-            <DatePicker x:Name="dpIssueDate" Margin="0,0,0,10"/>
+            <Label Content="Authorization Date:"/>
+            <DatePicker x:Name="dpAuthorizationDate" Margin="0,0,0,10"/>
 
             <Label Content="Value (R$):"/>
             <TextBox x:Name="txtValue" Margin="0,0,0,10"/>
@@ -35,35 +34,46 @@
             <Label Content="Description:"/>
             <TextBox x:Name="txtDescription" Margin="0,0,0,10" Height="60" TextWrapping="Wrap"/>
 
-            <Label Content="Creditor:"/>
-            <ComboBox x:Name="cmbCreditors"
-                      DisplayMemberPath="Name"
+            <Label Content="Invoice:"/>
+            <ComboBox x:Name="cmbInvoices"
                       SelectedValuePath="Id"
-                      Margin="0,0,0,10"/>
+                      Margin="0,0,0,10">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding Number}" FontWeight="Bold" Width="120"/>
+                            <TextBlock Text=" - " />
+                            <TextBlock Text="{Binding Creditor.Name}" Width="200" />
+                            <TextBlock Text=" - R$ " />
+                            <TextBlock Text="{Binding Value, StringFormat={}{0:F2}}" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
 
-            <Button x:Name="btnAddInvoice"
-                    Content="Add Invoice"
-                    Click="BtnAddInvoice_Click"
-                    Background="LightBlue"
+            <Button x:Name="btnAddPurchaseOrder"
+                    Content="Add Purchase Order"
+                    Click="BtnAddPurchaseOrder_Click"
+                    Background="LightSalmon"
                     Padding="10"
                     Margin="0,10,0,0"/>
         </StackPanel>
-            
-        <!-- Invoices List -->
+
+        <!-- Purchase Orders List -->
         <StackPanel Grid.Row="2" Margin="0,0,0,10">
             <Label Content="Registered Invoices:" FontWeight="Bold"/>
-            <ListBox x:Name="lstInvoices" Height="150">
+            <ListBox x:Name="lstPurchaseOrders" Height="150">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <Border BorderBrush="LightGray" BorderThickness="0,0,0,1" Padding="5">
                             <StackPanel Orientation="Horizontal">
                                 <TextBlock Text="{Binding Number}" FontWeight="Bold" Width="120"/>
-                                <TextBlock Text=" - R$ " />
+                                <TextBlock Text=" - R$ "/>
                                 <TextBlock Text="{Binding Value, StringFormat={}{0:F2}}" Width="80"/>
-                                <TextBlock Text=" - " />
-                                <TextBlock Text="{Binding Creditor.Name}" Width="150"/>
-                                <TextBlock Text=" - " />
-                                <TextBlock Text="{Binding IssueDate, StringFormat={}{0:dd/MM/yyyy}}" />
+                                <TextBlock Text=" - "/>
+                                <TextBlock Text="{Binding Invoice.Number}" Width="150"/>
+                                <TextBlock Text=" - "/>
+                                <TextBlock Text="{Binding AuthorizationDate, StringFormat={}{0:dd/MM/yyyy}}"/>
                             </StackPanel>
                         </Border>
                     </DataTemplate>

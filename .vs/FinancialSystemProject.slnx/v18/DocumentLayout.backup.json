@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{667B2FFD-3123-7B54-A6BE-23D7F6547BE0}|UserInterface\\UserInterface.csproj|c:\\users\\lucba\\documents\\estudos\\c#\\financialsystemproject\\userinterface\\invoicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{667B2FFD-3123-7B54-A6BE-23D7F6547BE0}|UserInterface\\UserInterface.csproj|solutionrelative:userinterface\\invoicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C5827C10-32D2-D72F-4639-49B48E591E74}|Business\\Business.csproj|c:\\users\\lucba\\documents\\estudos\\c#\\financialsystemproject\\business\\purchaseorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5827C10-32D2-D72F-4639-49B48E591E74}|Business\\Business.csproj|solutionrelative:business\\purchaseorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{667B2FFD-3123-7B54-A6BE-23D7F6547BE0}|UserInterface\\UserInterface.csproj|c:\\users\\lucba\\documents\\estudos\\c#\\financialsystemproject\\userinterface\\invoicewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{667B2FFD-3123-7B54-A6BE-23D7F6547BE0}|UserInterface\\UserInterface.csproj|solutionrelative:userinterface\\invoicewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{667B2FFD-3123-7B54-A6BE-23D7F6547BE0}|UserInterface\\UserInterface.csproj|c:\\users\\lucba\\documents\\estudos\\c#\\financialsystemproject\\userinterface\\purchaseorderwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{667B2FFD-3123-7B54-A6BE-23D7F6547BE0}|UserInterface\\UserInterface.csproj|solutionrelative:userinterface\\purchaseorderwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5827C10-32D2-D72F-4639-49B48E591E74}|Business\\Business.csproj|c:\\users\\lucba\\documents\\estudos\\c#\\financialsystemproject\\business\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5827C10-32D2-D72F-4639-49B48E591E74}|Business\\Business.csproj|solutionrelative:business\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5827C10-32D2-D72F-4639-49B48E591E74}|Business\\Business.csproj|c:\\users\\lucba\\documents\\estudos\\c#\\financialsystemproject\\business\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5827C10-32D2-D72F-4639-49B48E591E74}|Business\\Business.csproj|solutionrelative:business\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{667B2FFD-3123-7B54-A6BE-23D7F6547BE0}|UserInterface\\UserInterface.csproj|c:\\users\\lucba\\documents\\estudos\\c#\\financialsystemproject\\userinterface\\purchaseorderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{667B2FFD-3123-7B54-A6BE-23D7F6547BE0}|UserInterface\\UserInterface.csproj|solutionrelative:userinterface\\purchaseorderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{667B2FFD-3123-7B54-A6BE-23D7F6547BE0}|UserInterface\\UserInterface.csproj|c:\\users\\lucba\\documents\\estudos\\c#\\financialsystemproject\\userinterface\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,8 +23,28 @@
       "RelativeMoniker": "D:0:0:{667B2FFD-3123-7B54-A6BE-23D7F6547BE0}|UserInterface\\UserInterface.csproj|solutionrelative:userinterface\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\lucba\\documents\\estudos\\c#\\financialsystemproject\\models\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{667B2FFD-3123-7B54-A6BE-23D7F6547BE0}|UserInterface\\UserInterface.csproj|c:\\users\\lucba\\documents\\estudos\\c#\\financialsystemproject\\userinterface\\invoicewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{667B2FFD-3123-7B54-A6BE-23D7F6547BE0}|UserInterface\\UserInterface.csproj|solutionrelative:userinterface\\invoicewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{667B2FFD-3123-7B54-A6BE-23D7F6547BE0}|UserInterface\\UserInterface.csproj|c:\\users\\lucba\\documents\\estudos\\c#\\financialsystemproject\\userinterface\\invoicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{667B2FFD-3123-7B54-A6BE-23D7F6547BE0}|UserInterface\\UserInterface.csproj|solutionrelative:userinterface\\invoicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5827C10-32D2-D72F-4639-49B48E591E74}|Business\\Business.csproj|c:\\users\\lucba\\documents\\estudos\\c#\\financialsystemproject\\business\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5827C10-32D2-D72F-4639-49B48E591E74}|Business\\Business.csproj|solutionrelative:business\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\lucba\\documents\\estudos\\c#\\financialsystemproject\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5827C10-32D2-D72F-4639-49B48E591E74}|Business\\Business.csproj|c:\\users\\lucba\\documents\\estudos\\c#\\financialsystemproject\\business\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5827C10-32D2-D72F-4639-49B48E591E74}|Business\\Business.csproj|solutionrelative:business\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +54,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PurchaseOrderWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\UserInterface\\PurchaseOrderWindow.xaml",
+              "RelativeDocumentMoniker": "UserInterface\\PurchaseOrderWindow.xaml",
+              "ToolTip": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\UserInterface\\PurchaseOrderWindow.xaml",
+              "RelativeToolTip": "UserInterface\\PurchaseOrderWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-26T19:09:47.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "PurchaseOrderWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\UserInterface\\PurchaseOrderWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UserInterface\\PurchaseOrderWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\UserInterface\\PurchaseOrderWindow.xaml.cs",
+              "RelativeToolTip": "UserInterface\\PurchaseOrderWindow.xaml.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAowFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T14:27:11.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PurchaseOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\Business\\PurchaseOrderService.cs",
+              "RelativeDocumentMoniker": "Business\\PurchaseOrderService.cs",
+              "ToolTip": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\Business\\PurchaseOrderService.cs",
+              "RelativeToolTip": "Business\\PurchaseOrderService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAEUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T18:38:48.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PurchaseOrder.cs",
+              "DocumentMoniker": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\Models\\PurchaseOrder.cs",
+              "RelativeDocumentMoniker": "Models\\PurchaseOrder.cs",
+              "ToolTip": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\Models\\PurchaseOrder.cs",
+              "RelativeToolTip": "Models\\PurchaseOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T17:43:43.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\UserInterface\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "UserInterface\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\UserInterface\\MainWindow.xaml",
+              "RelativeToolTip": "UserInterface\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-26T00:40:35.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\UserInterface\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UserInterface\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\UserInterface\\MainWindow.xaml.cs",
+              "RelativeToolTip": "UserInterface\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:44:30.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\Business\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Business\\AppDbContext.cs",
@@ -50,48 +142,45 @@
               "RelativeToolTip": "Business\\AppDbContext.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAcwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T00:50:32.367Z",
-              "EditorCaption": ""
-            },
+              "WhenOpened": "2026-06-26T00:50:32.367Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "39f86686-133c-49b9-932e-52dad16ce3e8",
+        "Display": 1,
+        "X": 135,
+        "Y": 161,
+        "Width": 1536,
+        "Height": 873,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\UserInterface\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "UserInterface\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\UserInterface\\MainWindow.xaml.cs",
-              "RelativeToolTip": "UserInterface\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T00:44:30.659Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\UserInterface\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "UserInterface\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\UserInterface\\MainWindow.xaml",
-              "RelativeToolTip": "UserInterface\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-06-26T00:40:35.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "InvoiceWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\UserInterface\\InvoiceWindow.xaml.cs",
               "RelativeDocumentMoniker": "UserInterface\\InvoiceWindow.xaml.cs",
               "ToolTip": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\UserInterface\\InvoiceWindow.xaml.cs",
               "RelativeToolTip": "UserInterface\\InvoiceWindow.xaml.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwD8AAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwEoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-26T00:07:54.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "InvoiceWindow.xaml",
               "DocumentMoniker": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\UserInterface\\InvoiceWindow.xaml",
               "RelativeDocumentMoniker": "UserInterface\\InvoiceWindow.xaml",
@@ -103,19 +192,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "InvoiceService.cs",
               "DocumentMoniker": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\Business\\InvoiceService.cs",
               "RelativeDocumentMoniker": "Business\\InvoiceService.cs",
               "ToolTip": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\Business\\InvoiceService.cs",
               "RelativeToolTip": "Business\\InvoiceService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowDoAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAIwDoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T22:51:06.865Z"
+              "WhenOpened": "2026-06-25T22:51:06.865Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Invoice.cs",
               "DocumentMoniker": "C:\\Users\\lucba\\Documents\\ESTUDOS\\C#\\FinancialSystemProject\\Models\\Invoice.cs",
               "RelativeDocumentMoniker": "Models\\Invoice.cs",
@@ -123,7 +213,8 @@
               "RelativeToolTip": "Models\\Invoice.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T22:47:55.661Z"
+              "WhenOpened": "2026-06-25T22:47:55.661Z",
+              "EditorCaption": ""
             }
           ]
         }

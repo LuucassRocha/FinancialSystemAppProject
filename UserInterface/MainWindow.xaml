@@ -18,6 +18,7 @@
                 <MenuItem Header="People" Click="OpenPeople_Click"/>
                 <MenuItem Header="Creditors" Click="OpenCreditors_Click"/>
                 <MenuItem Header="Invoices" Click="OpenInvoices_Click"/>
+                <MenuItem Header="Purchase Orders" Click="OpenPurchaseOrders_Click"/>
                 <Separator/>
                 <MenuItem Header="Logout" Click="Logout_Click"/>
             </MenuItem>

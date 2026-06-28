@@ -16,7 +16,6 @@ namespace UserInterface
             _service = new InvoiceService();
 
             // Set current date on DatePicker
-
             dpIssueDate.SelectedDate = DateTime.Now;
 
             LoadCreditors();
@@ -72,9 +71,8 @@ namespace UserInterface
             lstInvoices.Items.Clear();
             foreach (var invoice in invoices)
             {
-                // Show: Number - Value - Creditor
-                string creditorName = invoice.Creditor?.Name ?? "No Creditor";
-                lstInvoices.Items.Add($"{invoice.Number} - R$ {invoice.Value:F2} - {creditorName}");
+                // Add full object
+                lstInvoices.Items.Add(invoice);
             }
 
             txtCounter.Text = $"Total: {_service.CountInvoices()} invoice(s)";

@@ -27,6 +27,12 @@ namespace UserInterface
             window.ShowDialog();
         }
 
+        private void OpenPurchaseOrders_Click(object sender, RoutedEventArgs e)
+        {
+            var window = new PurchaseOrderWindow();
+            window.ShowDialog();
+        }
+
         private void Logout_Click(object sender, RoutedEventArgs e)
         {
             Close();

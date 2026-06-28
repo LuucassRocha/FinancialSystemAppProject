@@ -7,7 +7,7 @@ namespace Models
         public int Id { get; set; }
         public string Number { get; set; } //Ex: OC-2026-001
         public DateTime AuthorizationDate { get; set; }
-        public int Value { get; set; }
+        public decimal Value { get; set; }
         public string Description { get; set; }
         public DateTime RegistrationDate { get; set; }
 

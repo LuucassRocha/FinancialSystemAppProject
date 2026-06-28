@@ -11,5 +11,8 @@
     <Compile Update="PersonWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="PurchaseOrderWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
